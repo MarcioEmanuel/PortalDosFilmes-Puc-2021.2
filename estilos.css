@@ -1,0 +1,154 @@
+/*Background*/
+
+body{
+    background-color: #132743;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+/***************Menu****************/
+header{
+    background: rgba(28,28,28,0.5);
+    text-align: center;
+}
+
+.header img{
+    max-width: 200px;
+
+}
+
+.Icones{
+    display: flex;
+    margin-top: 50px;
+    background-color: rgba(28,28,28,0.5);
+    color: lightgray;
+}
+
+.Texto-Pesquisa{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 600px){
+.nav_menu{
+    display: inline ;
+    margin: 5px;
+}
+}
+
+@media screen and (min-width: 1077px) and (max-width: 2024px){
+    .Texto-Pesquisa{
+        margin-top: 53px;
+    }
+}
+
+/************Bloco Lançamentos*************/
+
+
+.Slide{
+    background: rgba(28,28,28,0.5);
+    margin-top: 15px;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/*************Em Destaque**************/
+main .Botao_Categoria{
+    align-items: center;
+    margin-top: 15px;
+}
+
+h5{
+    color: #ffffff;
+}
+
+.EmDestaque{
+
+    margin: 15px;
+}
+
+.card{
+
+    background-color: rgba(28,28,28,0.5);
+}
+/*********Ultimas Avaliações**********/
+
+.tituloUA h2{
+    text-align: center;
+}
+
+main .UltimasAvaliacoes{
+    /*background-color: rgba(28,28,28,0.5);*/
+    margin-top: 25px;
+}
+
+.botao_Criticas{
+    margin: 15px;
+}
+
+main .UltimasAvaliacoes p{
+    white-space: nowrap;
+    font-size: smaller;
+}
+
+main .UltimasAvaliacoes .Avaliacao1{
+    background: rgba(28,28,28,0.5);
+    margin: 15px;
+}
+
+main .UltimasAvaliacoes .Avaliacao2{
+    background: rgba(28,28,28,0.5);
+    margin: 15px;
+}
+
+main .UltimasAvaliacoes .Avaliacao3{
+    background: rgba(28,28,28,0.5);
+    margin: 15px;
+}
+/*************Entrevistas************/
+
+
+h2{
+    margin-bottom: 15px;
+}
+
+main .Entrevistas td{
+    margin: 80px;
+}
+
+main .Makingof{
+    white-space: nowrap;
+    margin: 0px;
+}
+
+.Entrevistas{
+
+    background-color: rgba(28,28,28,0.5);
+}
+/*************Novidades***************/
+
+main .Novidades{
+    background: rgba(28,28,28,0.5);
+    margin-top: 15px;
+    white-space: nowrap;
+}
+
+/****************Footer***************/
+
+.footer{
+    background: rgba(28,28,28,0.5);;
+    margin-top: 15px;
+    text-align: center;
+}
+
+/*####################### COR DE TEXTOS ######################*/
+.container {
+    color:lightgray
+}
+
